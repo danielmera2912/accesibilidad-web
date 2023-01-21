@@ -72,7 +72,7 @@
                     </p>
                     <form>
                         <h3>Cantidad del donativo (EUR)</h3>
-
+                        <fieldset>
                         <div class="form-check-inline">
                             <input class="form-check-input" type="radio" name="unaVez" id="unaVez" value="option1" checked>
                             <label class="form-check-label" for="unaVez">
@@ -85,6 +85,7 @@
                                 Mensual
                             </label>
                         </div>
+                        </fieldset>
                         <div class="form-group">
                             <label for="exampleFormControlSelect2">Importe</label>
                             <select multiple class="form-control" id="exampleFormControlSelect2">
@@ -143,8 +144,8 @@
                             <input name="verificacion" id="verificacion" type="number" class="form-control" placeholder="CCV">
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input for="donativo" type="checkbox" class="custom-control-input">
-                            <label name="donativo" id="donativo" class="custom-control-label">Hago este donativo de manera anónima</label>
+                            <input name="donativo" id="donativo" type="checkbox" class="custom-control-input">
+                            <label for="donativo" class="custom-control-label">Hago este donativo de manera anónima</label>
                         </div>
                         <div class="custom-control custom-checkbox">
                             <input name="politica" id="politica" type="checkbox" class="custom-control-input">
