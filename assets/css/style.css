@@ -7,7 +7,7 @@
     background: #E8F8F5;
 }
 .bg-verde-oscuro{
-    background: #48C9B0;
+    background: #2d572c;
 }
 
 
@@ -15,17 +15,17 @@
     color: #E8F8F5;
 }
 .font-verde-oscuro{
-    color: #48C9B0;
+    color: #2d572c;
 }
 a{
-    color: #48C9B0 ;
+    color: #2d572c ;
 }
 a:hover{
     color: #6c757d ;
 }
 
 h3{
-    color: #48C9B0 ;
+    color: #2d572c ;
 }
 
 main img{
@@ -267,7 +267,7 @@ footer.container-fluid{
     margin: 0 auto;
 }
 .creditos a{
-    color: #48C9B0 ;
+    color: #2d572c ;
 }
 .creditos a:hover{
     color: #007bff ;
